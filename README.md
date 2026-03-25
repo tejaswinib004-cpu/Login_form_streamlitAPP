@@ -30,10 +30,10 @@ It allows users to log in using credentials stored in a database (MySQL).
 
 ```
 Login_form_streamlitAPP/
-│── login.py            # Main login application
-│── task.py             # Additional logic / functions
-│── requirements.txt    # Required dependencies
-│── README.md           # Project documentation
+│── login.py           
+│── task.py            
+│── requirements.txt    
+│── README.md           
 ```
 
 ---
@@ -47,11 +47,11 @@ git clone <your-repo-link>
 cd Login_form_streamlitAPP
 ```
 
-2. Create virtual environment (optional but recommended):
+2. Create virtual environment:
 
 ```
 python -m venv venv
-venv\Scripts\activate   # On Windows
+venv\Scripts\activate   
 ```
 
 3. Install dependencies:
@@ -83,7 +83,3 @@ streamlit run login.py
 Developed by **Tejaswini**
 
 ---
-
-## ⭐ Contribute
-
-Feel free to fork this repo and improve the project!
